@@ -16,6 +16,5 @@ namespace Projekt_API.Models
         public int IdKategoria { get; set; }
         public int LiczbaMiejsc { get; set; }
         public virtual Kategoria IdKategoriaNavigation { get; set; }
-        public virtual ICollection<Rezerwacja> Rezerwacja { get; set; }
     }
 }
